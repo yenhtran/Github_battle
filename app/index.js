@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDom from 'react-dom'
 import './index.css'
+import Popular from './components/Popular'
 
 class App extends React.Component {
   render() {
@@ -13,8 +14,8 @@ class App extends React.Component {
        *    'Hello World!'
        *  )
        */
-      <div>
-        Hello World!
+      <div className='container'>
+        <Popular />
       </div>
     )
   }
