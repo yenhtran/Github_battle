@@ -1,8 +1,14 @@
 import React from 'react'
-import ReactDom from 'react-dom'
+import ReactDOM from 'react-dom'
 import './index.css'
 import Popular from './components/Popular'
 
+/**
+ * React Component Aspects (3)
+ * - State
+ * - Lifecycle
+ * - UI
+ */
 class App extends React.Component {
   render() {
     return (
@@ -21,7 +27,7 @@ class App extends React.Component {
   }
 }
 
-ReactDom.render(
+ReactDOM.render(
   // React element,
   <App />,
   // Where to render to the Element to
