@@ -1,7 +1,8 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import './index.css'
-import Popular from './components/Popular'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import Popular from './components/Popular';
+import Battle from './components/Battle';
 
 /**
  * React Component Aspects (3)
@@ -20,10 +21,10 @@ class App extends React.Component {
        *    'Hello World!'
        *  )
        */
-      <div className='container'>
-        <Popular />
+      <div className="container">
+        <Battle />
       </div>
-    )
+    );
   }
 }
 
@@ -32,4 +33,4 @@ ReactDOM.render(
   <App />,
   // Where to render to the Element to
   document.getElementById('app')
-)
+);
